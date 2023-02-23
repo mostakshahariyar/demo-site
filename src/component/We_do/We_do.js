@@ -2,7 +2,7 @@ import React from 'react';
 
 const We_do = () => {
         return (
-                <div>
+                <div data-aos="zoom-in">
                         <h1 className='text-center'>
                                 What we do?
                         </h1>

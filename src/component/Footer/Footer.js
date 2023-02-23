@@ -6,7 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Footer = () => {
         return (
-                <div className='bg-dark'>
+                <div className='bg-dark' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <Container>
                                 <Row className='pt-5'>
                                         <Col lg={4} md={6}>
@@ -48,8 +48,8 @@ const Footer = () => {
 
                         <Container className='p-1'>
                                 <Row className='pb-3 text-center'>
-                                        <Col md={8} sm="auto" className='text-center text-light'>Copyright © 2023 office name - Developed and Maintained by name.</Col>
-                                        <Col md={4} sm="auto" className='d-flex justify-content-center align-items-center gap-5 pt-md-0 pt-3'>
+                                        <Col md={8} sm="m-auto" className='text-center text-light'>Copyright © 2023 office name - Developed and Maintained by name.</Col>
+                                        <Col md={4} sm="m-auto" className='d-flex justify-content-center align-items-center gap-5 pt-md-0 pt-3'>
                                                 <Link to="/" className='text-secondary' pointer>Disclaimer</Link>
                                                 <Link to="/" className='text-secondary' pointer>Privacy Police</Link>
                                         </Col>
