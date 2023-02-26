@@ -11,7 +11,7 @@ import Common from './component/Common/Common';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter className="App.css">
       <Navbar/>
       <Routes>
         <Route path='/' element={<Common/>}/>
