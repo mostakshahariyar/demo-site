@@ -6,8 +6,13 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Footer = () => {
         return (
-                <div className='bg-dark' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <Container>
+                <div className='bg-dark' data-aos="fade-up" >
+                        <Container
+                                data-aos-offset="5000"
+                                data-aos-delay="5000"
+                                data-aos-duration="5000"
+                                data-aos-anchor-placement="top-bottom"
+                        >
                                 <Row className='pt-5'>
                                         <Col lg={4} md={6}>
                                                 <div className='d-flex flex-column justify-content-start'>
